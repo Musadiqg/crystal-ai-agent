@@ -5,7 +5,7 @@ import { Reveal } from "./components/Reveal";
 import { AudioDemo } from "./components/AudioDemo";
 import { CrystalMark } from "./components/CrystalMark";
 
-const DEMO_AUDIO = `${import.meta.env.BASE_URL}audio/demo.mp3`;
+const DEMO_AUDIO = `${import.meta.env.BASE_URL}audio/demo.wav`;
 
 export default function App() {
   const heroRef = useRef<HTMLElement>(null);

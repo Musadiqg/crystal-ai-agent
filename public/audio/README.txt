@@ -1,6 +1,6 @@
 Crystal landing — place your demo recording here as:
 
-  demo.mp3
+  demo.wav
 
-The site loads it from /audio/demo.mp3 (relative to the site root).
+The site loads it from /audio/demo.wav (relative to the site root).
 If the file is missing, the player shows a short notice until you add it.

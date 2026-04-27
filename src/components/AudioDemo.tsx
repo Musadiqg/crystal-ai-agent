@@ -88,7 +88,7 @@ export function AudioDemo({ src }: Props) {
       />
       <div className="audio-card-top">
         <span className="audio-label">Crystal · call sample</span>
-        <span className="audio-hint">Stereo · MP3</span>
+        <span className="audio-hint">Stereo · WAV</span>
       </div>
       <div className="audio-row">
         <button
@@ -146,7 +146,7 @@ export function AudioDemo({ src }: Props) {
       </div>
       {loadError && (
         <p className="audio-error">
-          Add <code>demo.mp3</code> to <code>landing/public/audio/</code> then rebuild.
+          Add <code>demo.wav</code> to <code>landing/public/audio/</code> then rebuild.
         </p>
       )}
     </motion.div>
